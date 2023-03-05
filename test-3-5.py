@@ -6,5 +6,6 @@ completion = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
   messages=[{"role": "user", "content": f"You are SEO specialist. Please write 500 words to cover this product '{product_name}'"}]
 )
+ádkjflaksdjgklasdg
 
 print(completion['choices'][0]['message']['content'])
